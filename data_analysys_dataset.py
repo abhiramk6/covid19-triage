@@ -1,7 +1,7 @@
 import pandas as pd
-from logistic_regression_model import test_data_accuracy, training_data_accuracy
+from MLP import test_data_accuracy, training_data_accuracy
 
-corona_data = pd.read_csv('data/dataset.csv')
+corona_data = pd.read_csv('data/dataset2.csv')
 
 print("dataset")
 print(corona_data.head())
