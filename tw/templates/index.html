@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>corona predictor</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+<body style="background-color:powderblue;">
+
+<h2><centre>CORONA PREDICTOR</centre></h2>
+
+  <form action='/condition' method='post'>{% csrf_token %}
+
+
+      <input type="number" name="a" id="a"  min="0" max="100">
+      <label for="a">enter age</label><br>
+
+      <input type="checkbox" name="b" id="b" >
+      <label for="b"> chronic disease</label><br>
+
+      <input type="checkbox" name="c" id="c" >
+      <label for="c">gender male</label><br>
+
+      <input type="checkbox" name="d" id="d" >
+      <label for="d">respiratory problems</label><br>
+
+      <input type="checkbox" name="e" id="e" >
+      <label for="e">weakness or body pain</label><br>
+
+      <input type="checkbox" name="f" id="f" >
+      <label for="f">fever</label><br>
+
+      <input type="checkbox" name="g" id="g" >
+      <label for="g">gastric problems</label><br>
+
+
+      <input type="checkbox" name="i" id="i" >
+      <label for="i"></label>nausea<br>
+
+      <input type="checkbox" name="j" id="j" >
+      <label for="j"></label>cardiac problems<br>
+
+      <input type="checkbox" name="k" id="k" >
+      <label for="k"></label>high fever<br>
+
+      <input type="checkbox" name="l" id="l" >
+      <label for="l"></label>kidney<br>
+
+
+      <input type="checkbox" name="m" id="m" >
+      <label for="m">asymptomatic</label><br>
+
+      <input type="checkbox" name="n" id="n" >
+      <label for="n">diabetics</label><br>
+
+      <input type="checkbox" name="o" id="o" >
+      <label for="o">neuro</label><br>
+
+      <input type="checkbox" name="p" id="p" >
+      <label for="p">hypertension</label><br>
+
+      <input type="checkbox" name="q" id="q" >
+      <label for="q">cancer</label><br>
+
+      <input type="checkbox" name="r" id="r" >
+      <label for="r"> ortho</label><br>
+
+      <input type="checkbox" name="s" id="s" >
+      <label for="s">respiratory chronic disease</label><br>
+
+      <input type="checkbox" name="t" id="t" >
+      <label for="t">cardiac chronic disease</label><br>
+
+      <input type="checkbox" name="u" id="u" >
+      <label for="u">kidney chronic disease</label><br>
+
+      <input type="checkbox" name="v" id="v" >
+      <label for="v">blood problems</label><br>
+
+      <input type="checkbox" name="w" id="w" >
+      <label for="w">prostate  </label><br>
+
+      <input type="checkbox" name="x" id="x" >
+      <label for="x">  thyroid</label><br>
+
+
+      <button type='submit'> Get Results</button>
+
+  </form>
+
+
+
+
+
+
+</body>
+</html>
